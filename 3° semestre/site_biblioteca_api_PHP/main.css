@@ -1,0 +1,140 @@
+div{
+    justify-content: center;
+    
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+.cor_fundo{
+    background-color: #031017;
+}
+.cor_fundo2{
+    background-color: #001436;
+}
+.cor_fundo3{
+    background-color: white;
+}    
+.container{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
+    grid-template-rows: 380px 380px;
+    grid-gap: 20px;
+}
+.shadow{
+    box-shadow: 0px 0px 10px 7px #CFF1ED;
+}
+.imagem1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+}
+.imagem2{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+}
+.imagem3{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+.imagem4{
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+.imagem5{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+}
+.imagem6{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+}
+.imagem7{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+.imagem8{
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+.desconto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #C81D25;
+    text-align: center;
+}
+.precos{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.formulario{
+    margin-top: 200px;
+    width: 400px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+.paragrafo{
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:25px;
+    font-weight:bold;
+}
+.radioBotao{
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:20px;
+}
+.botao{
+    font-size: 1.5em;
+    background:#001436;
+    border: 0;
+    margin-bottom: 1em;
+    color:white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.botao:hover{
+    background: rgb(135, 204, 243);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao, select, label.checkbox{
+    cursor: pointer;
+}
+.center{
+    position: relative;
+    text-align: center;
+    margin-left: 750px;
+}
+.left{
+    text-align: left;
+    margin-left: 40%;
+}
+.alinhar{
+    padding-top: 15px;
+}
+.alinhar2{
+    text-align: left;
+}
+.txtcor{
+    color: #001436;
+}

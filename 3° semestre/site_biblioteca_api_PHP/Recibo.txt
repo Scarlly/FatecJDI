@@ -1,0 +1,12 @@
+Nome: Giovanni 
+Jundiai, 16 de Setembro de 2019
+
+Itens: 
+╔══════════════════╗
+║Bastoes - R$170,00║
+║Oculos  - R$51,00 ║
+║Botas   - R$400,00║
+╚══════════════════╝
+Forma de Pagamento: Dinheiro
+Valor da venda: R$621,00     Desconto total de: R$39,00
+Este orçamento será valido até o dia: 23 de Setembro de 2019

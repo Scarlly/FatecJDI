@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-float-top" style="background-color: #e7e7e7">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar">
+                    </span>
+                </button>
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <a class="navbar-brand" href="carrinho.html">Carrinho</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="formulario">
+
+        <form action="loja.php" method="POST">
+
+            <label name="nome" class="paragrafo">Nome</label>
+            <p> <input type="text" name="nome"> </p>
+
+            <label for="" class="paragrafo">Escolha os produtos</label>
+            <p> <input type="checkbox" name="prod1" value="Capacete"> Bastões </p>
+            <p> <input type="checkbox" name="prod2" value="Luvas Preta"> Botas </p>
+            <p> <input type="checkbox" name="prod3" value="Luvas Rosa"> Calças </p>
+            <p> <input type="checkbox" name="prod4" value="Prancha"> Gorro </p>
+            <p> <input type="checkbox" name="prod5" value="Botas Laranja"> Luvas </p>
+            <p> <input type="checkbox" name="prod6" value="Botas Vermelha"> Moletom </p>
+            <p> <input type="checkbox" name="prod7" value="Oculos"> Oculos </p>
+            <p> <input type="checkbox" name="prod8" value="Bastões"> Ski </p>
+
+            <label for="" class="paragrafo">Forma de pagamento</label>
+            <p> <input type="radio" name="pagamento" value="Dinheiro"> Dinheiro </p>
+            <p> <input type="radio" name="pagamento" value="Cartão de Crédito"> Cartao de Credito </p>
+            <p> <input type="radio" name="pagamento" value="Boleto"> Boleto </p>
+
+            <!-- om o imput hiden estamos utilizando ele para transferir o valor "value" do js para o php, e no php estamos
+            pegando o valor "value" para imprimi-lo
+            no arquivo txt -->
+            <input type="hidden" name="localdate" id="localdate" value="">
+            <input type="hidden" name="localdate2" id="localdate2" value="">
+            <input type="submit" value="Enviar" class="botao"> <br><br>
+
+            <input type="reset" value="Reset">
+        </form>
+
+    </div>
+<!--  se utiliza depois para carregar o form todo 1° e depois o js -->
+ <script src="verificacao.js"></script>
+
+</body>
+
+</html>

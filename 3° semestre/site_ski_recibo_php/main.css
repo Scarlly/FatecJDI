@@ -1,0 +1,133 @@
+div{
+    justify-content: center;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+.cor_fundo{
+    background-color: #DAF9FF;
+}
+.cor_fundo2{
+    background-color: #205cb679;
+}
+.container{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 30px;
+    
+}
+
+.imagem1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    box-shadow: 0px 10px 10px 10px rgba(14, 202, 235, 0.87);
+}
+.imagem2{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.imagem3{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.imagem4{
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.imagem5{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.imagem6{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.imagem7{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.imagem8{
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    box-shadow: 0px 10px 10px 10px rgba(72, 60, 145, 0.74);
+}
+.desconto{
+    font-family: "Oswald";
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.precos{
+    font-family: "Oswald";
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.formulario{
+    width: 400px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+.paragrafo{
+    font-family:"Oswald";
+    font-size:25px;
+    font-weight:bold;
+    
+}
+
+.radioBotao{
+    font-family:"Oswald";
+    font-size:20px;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: rgb(71, 174, 243);
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    font-family: "Oswald";
+}
+
+.botao:hover {
+    background: rgb(135, 204, 243);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
